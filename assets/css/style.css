@@ -23,7 +23,20 @@ main {
   gap: 10px;
   border: 1px solid black;
 }
+.card-izquierda {
+  display: flex;
+  justify-content: flex-start;
+ 
+  gap: 10px;
+  border: 1px solid black;
+}
 .izquierda > img {
+  display: flex;
+  justify-content: flex-start;
+  width: 25%;
+  border-radius: 50%;
+}
+.card-izquierda > img {
   display: flex;
   justify-content: flex-start;
   width: 25%;
@@ -50,6 +63,7 @@ button {
   display: inline-block;
   font-size: 16px;
 }
+
 
 #screen {
   display: flex;
