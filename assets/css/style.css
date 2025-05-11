@@ -1,4 +1,5 @@
 body {
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -8,33 +9,40 @@ main {
 }
 #chat {
   width: 20%;
-
-  border: 1px solid black;
+  background-color: white;
+  border: 1px solid #BEC1BB;
 }
 .status {
   display: flex;
 
-  border: 1px solid black;
+  border: 1px solid #BEC1BB;
 }
 .izquierda {
   display: flex;
   justify-content: flex-start;
   width: 75%;
   gap: 10px;
-  border: 1px solid black;
+  
 }
 .card-izquierda {
   display: flex;
   justify-content: flex-start;
 
   gap: 10px;
-  border: 1px solid black;
+  border: 1px #BEC1BB;
 }
 .izquierda > img {
   display: flex;
   justify-content: flex-start;
   width: 25%;
   border-radius: 80%;
+}
+
+.izquierda  > p{
+  font-size: 14px;
+}
+.card-izquierda > p{
+  font-size: 14px;
 }
 .card-izquierda > img {
   display: flex;
@@ -44,17 +52,17 @@ main {
 }
 .derecha {
   width: 25%;
-  border: 1px solid black;
+  
 }
 .boton {
   height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid #BEC1BB;
 }
 button {
-  background-color: #04aa6d; /* Green */
+  background-color: #a491d2; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -67,10 +75,33 @@ button {
 #screen {
   display: flex;
   width: 80%;
-  border: 1px solid green;
+  border: 1px solid #BEC1BB;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
   background-color: #e8ebe4;
+}
+
+.img-screen {
+  display: flex;
+border-radius: 2%;
+  background: #393939;
+  width: 30%;
+  height: 30%;
+}
+.img-screen > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1%;
+}
+.content-screen {
+  gap: 5px;
+  width: 80%;
+}
+.texto1 > p{
+  font-size: 45px;
+}
+.texto2 > p{
+  font-size: 16px;
 }
