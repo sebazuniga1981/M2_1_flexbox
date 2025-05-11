@@ -10,26 +10,24 @@ main {
 #chat {
   width: 20%;
   background-color: white;
-  border: 1px solid #BEC1BB;
+  border: 1px solid #bec1bb;
 }
 .status {
   display: flex;
-
-  border: 1px solid #BEC1BB;
+  border: 1px solid #bec1bb;
 }
 .izquierda {
   display: flex;
   justify-content: flex-start;
   width: 75%;
   gap: 10px;
-  
 }
 .card-izquierda {
   display: flex;
   justify-content: flex-start;
 
   gap: 10px;
-  border: 1px #BEC1BB;
+  border: 1px #bec1bb;
 }
 .izquierda > img {
   display: flex;
@@ -38,7 +36,7 @@ main {
   border-radius: 80%;
 }
 
-.card-izquierda > p{
+.card-izquierda > p {
   font-size: 14px;
 }
 .card-izquierda > img {
@@ -49,14 +47,13 @@ main {
 }
 .derecha {
   width: 25%;
-  
 }
 .boton {
   height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #BEC1BB;
+  border: 1px solid #bec1bb;
 }
 button {
   background-color: #a491d2; /* Green */
@@ -72,7 +69,7 @@ button {
 #screen {
   display: flex;
   width: 80%;
-  border: 1px solid #BEC1BB;
+  border: 1px solid #bec1bb;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -82,7 +79,7 @@ button {
 
 .img-screen {
   display: flex;
-border-radius: 2%;
+  border-radius: 2%;
   background: #393939;
   width: 30%;
   height: 30%;
@@ -96,9 +93,9 @@ border-radius: 2%;
   gap: 5px;
   width: 80%;
 }
-.texto1 > p{
+.texto1 > p {
   font-size: 45px;
 }
-.texto2 > p{
+.texto2 > p {
   font-size: 16px;
 }
