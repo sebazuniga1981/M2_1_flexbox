@@ -8,7 +8,7 @@ main {
 }
 #chat {
   width: 20%;
-  height: 100vh;
+
   border: 1px solid black;
 }
 .status {
@@ -26,7 +26,7 @@ main {
 .card-izquierda {
   display: flex;
   justify-content: flex-start;
- 
+
   gap: 10px;
   border: 1px solid black;
 }
@@ -34,20 +34,20 @@ main {
   display: flex;
   justify-content: flex-start;
   width: 25%;
-  border-radius: 50%;
+  border-radius: 80%;
 }
 .card-izquierda > img {
   display: flex;
   justify-content: flex-start;
   width: 25%;
-  border-radius: 50%;
+  border-radius: 80%;
 }
 .derecha {
   width: 25%;
   border: 1px solid black;
 }
 .boton {
-height: 90px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,11 +64,9 @@ button {
   font-size: 16px;
 }
 
-
 #screen {
   display: flex;
   width: 80%;
-  height: 100vh;
   border: 1px solid green;
   align-items: center;
   justify-content: center;
